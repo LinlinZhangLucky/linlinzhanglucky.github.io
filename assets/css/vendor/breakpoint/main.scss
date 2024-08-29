@@ -1,0 +1,24 @@
+// Import Breakpoint for responsive design
+@import "vendor/breakpoint/breakpoint";
+
+// Import other SCSS partials (example names)
+@import "base/reset";
+@import "base/typography";
+@import "components/buttons";
+@import "components/forms";
+@import "layout/header";
+@import "layout/footer";
+@import
+    "base",
+    "layout",
+    "syntax-highlighting",
+    "bootstrap";
+// Custom styles can be added here
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+}
+
+// Additional styles specific to your project
+
+

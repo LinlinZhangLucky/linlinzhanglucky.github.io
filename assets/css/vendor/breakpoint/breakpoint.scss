@@ -1,0 +1,62 @@
+// Breakpoint
+// 1.0.0
+// --------------------------------------------------
+// Easily build media queries in Sass
+//
+// Copyright (c) 2012-2014 Team-Sass
+// Licensed under the MIT License
+// http://opensource.org/licenses/MIT
+// --------------------------------------------------
+
+$breakpoints: (
+  mobile: 480px,
+  tablet: 768px,
+  desktop: 1024px,
+  widescreen: 1200px
+) !default;
+
+@mixin breakpoint($point) {
+  @if map-has-key($breakpoints, $point) {
+    $min-width: map-get($breakpoints, $point);
+    @media (min-width: $min-width) {
+      @content;
+    }
+  } @else {
+    @warn "Unfortunately, `#{$point}` isn't a valid breakpoint.";
+  }
+}
+
+@mixin breakpoint-between($lower, $upper) {
+  @if map-has-key($breakpoints, $lower) and map-has-key($breakpoints, $upper) {
+    $min-width: map-get($breakpoints, $lower);
+    $max-width: map-get($breakpoints, $upper);
+    @media (min-width: $min-width) and (max-width: $max-width) {
+      @content;
+    }
+  } @else {
+    @warn "Unfortunately, either `#{$lower}` or `#{$upper}` isn't a valid breakpoint.";
+  }
+}
+
+@mixin breakpoint-max($point) {
+  @if map-has-key($breakpoints, $point) {
+    $max-width: map-get($breakpoints, $point);
+    @media (max-width: $max-width) {
+      @content;
+    }
+  } @else {
+    @warn "Unfortunately, `#{$point}` isn't a valid breakpoint.";
+  }
+}
+
+@mixin breakpoint-min($point) {
+  @if map-has-key($breakpoints, $point) {
+    $min-width: map-get($breakpoints, $point);
+    @media (min-width: $min-width) {
+      @content;
+    }
+  } @else {
+    @warn "Unfortunately, `#{$point}` isn't a valid breakpoint.";
+  }
+}
+
