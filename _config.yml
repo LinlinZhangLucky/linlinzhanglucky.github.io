@@ -23,8 +23,8 @@ author:
   # Biographic information
   avatar           : "images/profile.png"
   name             : "Linlin Zhang (lz2981@columbia.edu)"
-  pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  pronouns         : "she/her" # example: "she/her"  
+  bio              : "I have finished my BS. in UW-Madison, and start my MS. in Columbia University. I major in CS and specifically, I am interested in computer vision, grafic and HCI. I also minor in art and design.(VRAR)"
   location         : "Earth"
   employer         : "Red Brick University"
   uri              : # URL
