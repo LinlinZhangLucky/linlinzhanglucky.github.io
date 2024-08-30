@@ -21,7 +21,7 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "images/profile.png"
+  avatar           : "profile.png"
   name             : "Linlin Zhang (lz2981@columbia.edu)"
   pronouns         : "she/her" # example: "she/her"  
   bio              : "I have finished my BS. in UW-Madison, and start my MS. in Columbia University. I major in CS and specifically, I am interested in computer vision, grafic and HCI. I also minor in art and design.(VRAR)"
