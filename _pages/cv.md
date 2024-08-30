@@ -11,26 +11,27 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+;; * Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* M.S. in Computer Science, Columbia University, New York, USA 2024.9 - 2025.12
+* B.S. in Computer Science & Data Science, University of Wisconsin Madison, Madison, USA 2021.9 - 2024.5
+
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+;; * Spring 2024: Academic Pages Collaborator
+;;   * Github University
+;;   * Duties includes: Updates and improvements to template
+;;   * Supervisor: The Users
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+;; * Fall 2015: Research Assistant
+;;   * Github University
+;;   * Duties included: Merging pull requests
+;;   * Supervisor: Professor Hub
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+;; * Summer 2015: Research Assistant
+;;   * Github University
+;;   * Duties included: Tagging issues
+;;   * Supervisor: Professor Git
   
 Skills
 ======
